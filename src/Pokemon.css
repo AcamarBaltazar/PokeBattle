@@ -1,0 +1,201 @@
+body{
+  background-image: url("https://preview.redd.it/d9spuwer2c491.png?width=1050&format=png&auto=webp&s=9ca8c75c63da9f8bb134e955d73e2770d073375e");
+  background-repeat: no-repeat;
+  background-size:     cover;
+}
+
+.pokemon-card {
+  background-color: #d80909;
+  border-radius: 34px;
+  height: 347px;
+  overflow: hidden;
+  position: relative;
+  width: 260px;
+  margin-right: 6px;
+  background: rgba( 140, 247, 24, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 14px );
+  -webkit-backdrop-filter: blur( 14px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+
+.Pokedex{
+  display: inline-flex;
+  height: 347px;
+  padding-left: 0px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 11px;
+  flex-shrink: 0;
+}
+
+.pokemon-card .pic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+  
+.text-name {
+    color: white;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 48px;
+    font-weight: 0;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    margin-top: 30px;
+}
+
+.text-type{
+  color: white;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 26px;
+    font-weight: 0;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    margin-top: 5px;
+}
+
+.VS{
+  color: white;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 100px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+  margin: 0;
+}
+
+.p1-name{
+  color: white;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 48px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: left;
+  display: flex;
+  top: 0;
+  margin:0;
+}
+
+.p2-name{
+  color: white;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 48px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: right;
+  top: 0;
+  margin:0;
+}
+
+.p1-pokemons{
+  display: inline-flex;
+  height: 347px;
+  padding-right: 700px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 11px;
+  flex-shrink: 0;
+}
+
+.winner{
+  color: white;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 48px;
+    font-weight: 0;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    margin-top: 50px;
+}
+
+.p2-pokemons{
+  display: inline-flex;
+  height: 347px;
+  padding-left: 700px;
+  padding-right: 0px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 11px;
+  flex-shrink: 0;
+}
+
+.p2-name{
+  color: white;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 48px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: right;
+  top: 0;
+}
+
+.text-total{
+  color: white;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  top: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.total-hp-text{
+  color: white;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align:center;
+  top: 0;
+  
+}
+
+.text-hp{
+  color: white;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 0;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    top: 0;
+}
+  
+  .pokedex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
